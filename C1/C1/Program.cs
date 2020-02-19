@@ -10,10 +10,10 @@ namespace C1
     {
         static void Main(string[] args)
         {
-            int a = Int32.Parse(Console.ReadLine()); 
-            int b = Int32.Parse(Console.ReadLine());
-            int c = (a + b) * 2;
-            Console.WriteLine(c);
+            int a = Int32.Parse(Console.ReadLine());
+            int n = Int32.Parse(Console.ReadLine());
+            double b = n * (a * (a * 0.04));
+            Console.WriteLine(b);
             Console.ReadKey();
         }
     }
